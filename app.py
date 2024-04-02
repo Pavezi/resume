@@ -7,7 +7,7 @@ from PIL import Image
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Vinicius Lampert Pavezi.pdf"
+resume_file = current_dir / "assets" / "Vinicius Pavezi en.pdf"
 profile_picture = current_dir / "assets" / "profile_pic.png"
 
 
@@ -18,13 +18,12 @@ NAME = "Vinicius Pavezi"
 DESCRIPTION = """
 Full Stack Developer, assisting enterprise by giving representativity on the web
 """
-EMAIL = "contact@vtech.com"
+EMAIL = "vpavezi@vtech.com"
 SOCIAL_MEDIA = {
     "Blog": "https://distritodev.blogspot.com/",
     "Github": "https://github.com/Pavezi",
-    "LinkedIn": "https://www.linkedin.com/in/vinicius-pavezi/",
-    "Twitter": "https://twitter.com/ViniciusPavezi",
-    "Instagram": "https://www.instagram.com/viniciuspavezi/",
+    "LinkedIn": "https://www.linkedin.com/in/vinicius-pavezi-53976b162/",
+    "Instagram": "https://www.instagram.com/vinicius.pavezi/",
 }
 PROJECTS={
     "Fidelizou.me app -": "https://app.fidelizou.me/admin/index.html#/login",
