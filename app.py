@@ -21,16 +21,13 @@ Full Stack Developer, assisting enterprise by giving representativity on the web
 EMAIL = "contact@vtech.com"
 SOCIAL_MEDIA = {
     "Blog": "https://distritodev.blogspot.com/",
-    "Github": "https://github.com/ViniciusPavezi",
+    "Github": "https://github.com/Pavezi",
     "LinkedIn": "https://www.linkedin.com/in/vinicius-pavezi/",
     "Twitter": "https://twitter.com/ViniciusPavezi",
     "Instagram": "https://www.instagram.com/viniciuspavezi/",
 }
 PROJECTS={
-    "Flowrise Website -": "https://",
-    "Stocks Follower": "https://",
-    "Customer Website": "https://",
-    "Pokedex": "https://",
+    "Fidelizou.me app -": "https://app.fidelizou.me/admin/index.html#/login",
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -49,7 +46,6 @@ col1,col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, use_column_width=True)
 with col2:
-    st.write('Language🇧🇷🇺🇸')
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
@@ -90,10 +86,57 @@ st.write(
 """
 )
 
+# -- Work --
+st.write("#")
+st.subheader("🗃 Work History")
+st.write("---")
+
+# -- Job 1 --
+
+st.write("🖥","**Mid Level Full Stack Developer | Fidelizou.me**")
+st.write("03/2023 - 03/2024")
+st.write(
+    """
+- Fix and rebuild Startup Product 
+- AWS ecossistem
+- PSQL database
+- Github Actions
+"""
+)
+
+# -- Job 3 --
+
+st.write("👔","**Analist | KTO**")
+st.write("03/2023 - 03/2024")
+st.write(
+    """
+- Detect Bugs 
+- Track AWS ecossistem
+- Quicksight
+- Java (Spring Boot)
+"""
+)
+
+# -- Job 2 --
+
+st.write("📊","**Developer | Mercur**")
+st.write("03/2023 - 03/2024")
+st.write(
+    """
+- Generate reports and interpret data from the Prophix
+- Integrate data with TalendStudio
+- PSQL database
+- VRaptor (Java)
+"""
+)
+
+
 # # -- PROJECTS --
-# st.write("#")
-# cols = st.columns(len(PROJECTS))
-# for index, (project, link) in enumerate(PROJECTS.items()):
-#     cols[index].write(f"[{project}]({link})")
+st.write("#")
+st.subheader("🗃 Projects & Accomplhisments")
+st.write("---")
+
+for project, link in PROJECTS.items():
+    st.write(f"[{project}]({link})")
 
 # # -- Contact --
