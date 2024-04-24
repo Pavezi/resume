@@ -18,7 +18,7 @@ NAME = "Vinicius Pavezi"
 DESCRIPTION = """
 Full Stack Developer, assisting enterprise by giving representativity on the web
 """
-EMAIL = "vpavezi@vtech.com"
+EMAIL = "pavezivinicius@gmail.com"
 SOCIAL_MEDIA = {
     "Blog": "https://distritodev.blogspot.com/",
     "Github": "https://github.com/Pavezi",
